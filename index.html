@@ -3,14 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style-main.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <title>PROYECTO POKEWEB</title>
 </head>
 <body>
-    /*esta es una pequeña prueba de git*/
-    <!-- PRUEBA GIT CRISTOBAL CARMONA -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid ps-5 pe-5">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/Poké_Ball_icon.svg.webp" alt="pokebola">
+                    POKÉWEB
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav w-100 align-items-lg-center my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item ms-lg-auto">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POKÉDEX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GESTOR DE EQUIPOS</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3 me-lg-0">
+                            <a class="btn" href="#">SOBRE NOSOTROS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero ms-5 w-50">
+            <h2>PROYECTO POKÉDEX</h2>
+            <h1>PROYECTO TALLER WEB</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et ipsum.</p>
+            <button class="btn" href="#">DESCÚBRELO</button>
+        </section>
+    </main>
     
-    <!-- probando correcto funcionamiento de la api -->
+    <!-- scripts -->
     <script src="js/pokeapi.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
